@@ -22,10 +22,8 @@
     outline: 0;
 }
 
-.buttdiv{
-    position: fixed;
-    left: 50%;
-    top: 80%;
+.buttdiv{   
+    bottom:0;
 }
 .hv:hover{
     cursor: pointer;
@@ -57,11 +55,15 @@
     display: inline-block;
 }
 .joined{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .invitepanel{
     background-color: gray;
 }
 .fred{
     color: red;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
 }

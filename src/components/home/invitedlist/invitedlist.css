@@ -1,0 +1,27 @@
+.invited{
+    background-color: greenyellow;
+}
+.joined{
+    
+    background-color: red;
+}
+.invhead{
+    background-color: royalblue;
+}
+.invlis{
+    width: 350px;
+    height: 400px;
+    overflow: scroll;
+}
+.fl{
+    display: inline-flex;
+}
+.invname{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ml5{
+   margin-left: 10px; 
+}
