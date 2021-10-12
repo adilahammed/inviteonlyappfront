@@ -36,7 +36,6 @@ const login=()=>{
         inviter
     }).then((res)=>{
         console.log(res.data.status);
-        
         alert(res.data.status)
         setsuccess(res.data.status)
     }).catch((err)=>{
@@ -50,6 +49,7 @@ return(
     <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css"></link>
+    <h3 className="createtitile">this is a inviting  app you can't join without a invitation</h3>
     <div className="registration-form form-body container-fluid ">
         <form>
             <h2>{success}</h2>

@@ -56,8 +56,8 @@ function Home ({token,tokenmanage}){
                     </button>
                 </div>
             </div>
-                <div onClick={()=>{tokenmanage("")}} className="buttdiv ">
-                    <button className="button-2 hv">
+                <div  className="buttdiv ">
+                    <button onClick={()=>{tokenmanage("")}} className="button-2 hv">
                         logout
                     </button>
                 </div>

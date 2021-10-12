@@ -62,7 +62,7 @@ function Invitedlist({token,val}){
                 </div>
             </div>
             <div className=" joined">
-                <div className="invhead">
+                <div className="invhead ">
                     <h1>
                         joined:
                     </h1>

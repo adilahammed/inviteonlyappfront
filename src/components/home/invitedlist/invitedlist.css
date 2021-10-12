@@ -1,18 +1,27 @@
 .invited{
     background-color: greenyellow;
+    border-radius: 10px;
+    margin-left: 10px; 
 }
+
 .joined{
-    
-    background-color: red;
+    border-radius: 10px;
+
+    background-color: rgb(0, 255, 179);
 }
 .invhead{
     background-color: royalblue;
+    padding-left: 20px;
 }
 .invlis{
     width: 350px;
     height: 400px;
     overflow: scroll;
+    padding-left: 5px;
 }
+.invlis::-webkit-scrollbar {
+    display: none;
+  }
 .fl{
     display: inline-flex;
 }
